@@ -64,7 +64,7 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kawaa provides an email verification API and bulk email validation service designed for developers, marketers, agencies, and SaaS teams. Their platform offers real‑time email checks, list monitoring, integration tools, SDKs, webhooks, and a playground for testing. Documentation includes API reference, guides, pricing, and support resources, helping users ensure deliverability and list hygiene.
+Kawaa offers a comprehensive email verification and bulk validation platform tailored for developers, marketers, agencies, and SaaS teams. The service provides real‑time email address checks, list monitoring, and a robust playground for testing integrations. It includes SDKs for multiple languages, webhook notifications, and detailed documentation covering API reference, quick‑start guides, pricing, and support resources, enabling users to maintain high deliverability and clean mailing lists across their applications.
 
 **Areas:** Company · EmailVerification · API · SaaS · Marketing
 
@@ -72,23 +72,144 @@ Kawaa provides an email verification API and bulk email validation service desig
 
 Everything profiled for kawaa-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kawaa-com/](https://apis.io/providers/kawaa-com/)** — or go straight to one of the APIs or properties below.
 
+### APIs (11)
+
+- [kawaa-com Account API](https://apis.io/apis/kawaa-com/kawaa-com-account-api/) — Plan, credits and usage.
+- [kawaa-com Activity API](https://apis.io/apis/kawaa-com/kawaa-com-activity-api/) — Engagement your own account's tracking has recorded for an address. Never another account's data.
+- [kawaa-com API keys API](https://apis.io/apis/kawaa-com/kawaa-com-api-keys-api/) — The credentials that reach this API.
+- [kawaa-com Catalogue API](https://apis.io/apis/kawaa-com/kawaa-com-catalogue-api/) — Public plan and credit-pack prices.
+- [kawaa-com Deliverability API](https://apis.io/apis/kawaa-com/kawaa-com-deliverability-api/) — How a domain is set up to send mail.
+- [kawaa-com Exports API](https://apis.io/apis/kawaa-com/kawaa-com-exports-api/) — Owned exports and scheduled-export requests.
+- [kawaa-com Health API](https://apis.io/apis/kawaa-com/kawaa-com-health-api/) — Is the API up.
+- [kawaa-com Jobs API](https://apis.io/apis/kawaa-com/kawaa-com-jobs-api/) — Follow asynchronous work and read its results.
+- [kawaa-com Search API](https://apis.io/apis/kawaa-com/kawaa-com-search-api/) — Find an address, or look at a domain.
+- [kawaa-com Verification API](https://apis.io/apis/kawaa-com/kawaa-com-verification-api/) — Check whether an address can receive mail.
+- [kawaa-com Webhooks API](https://apis.io/apis/kawaa-com/kawaa-com-webhooks-api/) — Be told when work finishes instead of polling. **Verifying a delivery.** Every signed delivery carries `X-Kawaa-Signature-V2: t=<unix seconds>,v1=<hex>`.…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Kawaa Com Webhooks](https://apis.io/asyncapis/kawaa-com/kawaa-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Kawaa Com Agentic Access](https://apis.io/agentic-access/kawaa-com/kawaa-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Account](https://apis.io/schemas/kawaa-com/kawaa-com-account/)
+- [BatchAccepted](https://apis.io/schemas/kawaa-com/kawaa-com-batch-accepted/)
+- [DeliverabilityCheck](https://apis.io/schemas/kawaa-com/kawaa-com-deliverability-check/)
+- [Job](https://apis.io/schemas/kawaa-com/kawaa-com-job/)
+- [SubAccount](https://apis.io/schemas/kawaa-com/kawaa-com-sub-account/)
+- [VerificationResult](https://apis.io/schemas/kawaa-com/kawaa-com-verification-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Kawaa Com Context](https://apis.io/jsonld/kawaa-com/kawaa-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [kawaa-com API Rules](https://apis.io/rules/kawaa-com/kawaa-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kawaa Com Authentication](https://apis.io/security/kawaa-com/kawaa-com-authentication/)
+- [Kawaa Com Domain Security](https://apis.io/security/kawaa-com/kawaa-com-domain-security/)
+- [Kawaa Com Vulnerability Disclosure](https://apis.io/security/kawaa-com/kawaa-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Kawaa Com Scopes](https://apis.io/scopes/kawaa-com/kawaa-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Kawaa Com Plans Pricing](https://apis.io/plans/kawaa-com/kawaa-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Kawaa Com Rate Limits](https://apis.io/rate-limits/kawaa-com/kawaa-com-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://kawaa.com/)
 - [Documentation](https://kawaa.com/docs/)
-- [Getting started](https://kawaa.com/docs/getting-started/)
+- [Getting started](https://kawaa.com/docs/quickstart/)
 - [API reference](https://kawaa.com/docs/api/)
 - [Pricing](https://kawaa.com/pricing/)
+- [Sign up](https://kawaa.com/signup)
 - [Support](https://kawaa.com/support/)
 - [Blog](https://kawaa.com/blog/)
+- [Security](https://kawaa.com/support/security/)
 - [Terms of service](https://kawaa.com/terms/)
 - [Privacy policy](https://kawaa.com/privacy/)
+- [Status](https://status.kawaa.com)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/kawaa-com/](https://apis.io/providers/kawaa-com/).
+**Kin Score 74.5** — exemplar · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 70.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 62.6 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 73.2 |
+
+**Agent readiness 68.8** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kawaa-com/](https://apis.io/providers/kawaa-com/).
 
 ## How this profile is made
 
