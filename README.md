@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kawaa offers a comprehensive email verification and bulk validation platform tailored for developers, marketers, agencies, and SaaS teams. The service provides real‑time email address checks, list monitoring, and a robust playground for testing integrations. It includes SDKs for multiple languages, webhook notifications, and detailed documentation covering API reference, quick‑start guides, pricing, and support resources, enabling users to maintain high deliverability and clean mailing lists across their applications.
+Kawaa offers an email verification platform that catches bad addresses before they bounce. It checks syntax, domain validity, mailbox existence and risk signals through a simple REST API or bulk CSV upload. The service provides real‑time verification for single emails and batch processing for large lists, returning detailed deliverability, catch‑all, disposable and role‑based address information. A free plan is available for developers.
 
-**Areas:** Company · EmailVerification · API · SaaS · Marketing
+**Areas:** Email Verification · API · SaaS · Data Validation · Bulk Email
 
 ## kawaa-com on APIs.io
 
@@ -89,41 +89,6 @@ Everything profiled for kawaa-com is published on APIs.io rather than in this re
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
-
-#### AsyncAPI (1)
-
-Event-driven and webhook contracts.
-
-- [Kawaa Com Webhooks](https://apis.io/asyncapis/kawaa-com/kawaa-com-webhooks/)
-
-#### Agentic access (1)
-
-Which operations an agent can call, which act, and which need a human in the loop.
-
-- [Kawaa Com Agentic Access](https://apis.io/agentic-access/kawaa-com/kawaa-com-agentic-access/)
-
-#### JSON Schema (6)
-
-The data models the API reads and writes.
-
-- [Account](https://apis.io/schemas/kawaa-com/kawaa-com-account/)
-- [BatchAccepted](https://apis.io/schemas/kawaa-com/kawaa-com-batch-accepted/)
-- [DeliverabilityCheck](https://apis.io/schemas/kawaa-com/kawaa-com-deliverability-check/)
-- [Job](https://apis.io/schemas/kawaa-com/kawaa-com-job/)
-- [SubAccount](https://apis.io/schemas/kawaa-com/kawaa-com-sub-account/)
-- [VerificationResult](https://apis.io/schemas/kawaa-com/kawaa-com-verification-result/)
-
-#### JSON-LD (1)
-
-Linked-data contexts for the provider's vocabulary.
-
-- [Kawaa Com Context](https://apis.io/jsonld/kawaa-com/kawaa-com-context/)
-
-#### Governance rules (1)
-
-Spectral rulesets for the provider's contracts.
-
-- [kawaa-com API Rules](https://apis.io/rules/kawaa-com/kawaa-com-rules/)
 
 #### Security (3)
 
@@ -158,9 +123,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Website](https://kawaa.com/)
 - [Documentation](https://kawaa.com/docs/)
 - [Getting started](https://kawaa.com/docs/quickstart/)
-- [API reference](https://kawaa.com/docs/api/)
 - [Pricing](https://kawaa.com/pricing/)
-- [Sign up](https://kawaa.com/signup)
 - [Support](https://kawaa.com/support/)
 - [Blog](https://kawaa.com/blog/)
 - [Security](https://kawaa.com/support/security/)
@@ -170,23 +133,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 74.5** — exemplar · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 60.1** — strong · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 70.8 |
-| Contract governance | 79.1 |
+| Discoverability | 65.0 |
+| Contract quality | 49.3 |
+| Contract governance | 16.4 |
 | Operational transparency | 62.6 |
-| Developer ergonomics | 70.7 |
+| Developer ergonomics | 63.6 |
 | Access clarity | 73.2 |
 
-**Agent readiness 68.8** — agent-native
+**Agent readiness 62.5** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | — |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
