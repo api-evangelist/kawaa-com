@@ -64,5 +64,40 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-kawaa-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://kawaa.com/
+Kawaa provides an email verification API and bulk email validation service designed for developers, marketers, agencies, and SaaS teams. Their platform offers real‑time email checks, list monitoring, integration tools, SDKs, webhooks, and a playground for testing. Documentation includes API reference, guides, pricing, and support resources, helping users ensure deliverability and list hygiene.
+
+**Areas:** Company · EmailVerification · API · SaaS · Marketing
+
+## kawaa-com on APIs.io
+
+Everything profiled for kawaa-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kawaa-com/](https://apis.io/providers/kawaa-com/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://kawaa.com/)
+- [Documentation](https://kawaa.com/docs/)
+- [Getting started](https://kawaa.com/docs/getting-started/)
+- [API reference](https://kawaa.com/docs/api/)
+- [Pricing](https://kawaa.com/pricing/)
+- [Support](https://kawaa.com/support/)
+- [Blog](https://kawaa.com/blog/)
+- [Terms of service](https://kawaa.com/terms/)
+- [Privacy policy](https://kawaa.com/privacy/)
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/kawaa-com/](https://apis.io/providers/kawaa-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for kawaa-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kawaa-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
